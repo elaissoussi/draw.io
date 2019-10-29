@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-29T21:12:22.983Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="RNdYE1AprH8Whbo5t6kd" version="12.1.8" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-10-29T21:24:39.508Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="AJl88NEgQroiv4UfX6q2" version="12.1.8" type="github" pages="1">
   <diagram name="Page-1" id="929967ad-93f9-6ef4-fab6-5d389245f69c">
     <mxGraphModel dx="1172" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -44,8 +44,8 @@
         <mxCell id="rXu6xFuccpKYWGQX2Kob-42" value="LelArchivedLettrerMedia" style="html=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="400" width="130" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="rXu6xFuccpKYWGQX2Kob-46" value="1 -&amp;nbsp; Création du DataModel : LelMedia , LelDraftLetterMedia, relation customer&lt;br&gt;2 -&amp;nbsp; Creation de LelMediaService extends MediaService pour gestion des medias LEL&lt;br&gt;3 -&amp;nbsp; Gestion du Draft à partir de la sessionServion ...&lt;br&gt;4 -&amp;nbsp; Ajout d&#39;un property hac pour limiter nombre maximale de drafts par customer&lt;br&gt;5 - Ajout d&#39;un property hac pour&amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: rgb(22 , 165 , 63) ; font-family: &amp;#34;verdana&amp;#34; ; font-size: 10px&quot;&gt;duree-conservation-brouillons&amp;nbsp;&lt;br&gt;&lt;/span&gt;6- Ajout d&#39;un job&amp;nbsp;&lt;br&gt;&amp;nbsp;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="1">
-          <mxGeometry x="680" y="165" width="420" height="130" as="geometry"/>
+        <mxCell id="rXu6xFuccpKYWGQX2Kob-46" value="1 -&amp;nbsp; 1j Création du DataModel : LelMedia , LelDraftLetterMedia, relation customer&lt;br&gt;&lt;br&gt;2 -&amp;nbsp; 3J Creation de LelMediaService extends MediaService pour gestion des medias LEL&amp;nbsp; (nombre maximale de drafts par customer)&lt;br&gt;&lt;br&gt;3 -&amp;nbsp; 3j Mise à jour des controller Editor et creation de Controller pour la gestion du Draft.&lt;br&gt;&lt;br&gt;&lt;br&gt;6- 2j Ajout des jobs pour le clean des media : job , trigger ..." style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="1">
+          <mxGeometry x="680" y="100" width="420" height="160" as="geometry"/>
         </mxCell>
         <mxCell id="rXu6xFuccpKYWGQX2Kob-51" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="rXu6xFuccpKYWGQX2Kob-42" target="rXu6xFuccpKYWGQX2Kob-6">
           <mxGeometry width="160" relative="1" as="geometry">
