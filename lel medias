@@ -1,16 +1,16 @@
-<mxfile host="www.draw.io" modified="2019-10-30T10:40:45.892Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="IciTl9MPHplqS5obv_J_" version="12.1.8" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-10-30T12:57:34.432Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="o80_gX3A7tc7YnGtWjVF" version="12.1.8" type="github" pages="1">
   <diagram name="Page-1" id="929967ad-93f9-6ef4-fab6-5d389245f69c">
     <mxGraphModel dx="1172" dy="505" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" style=";html=1;"/>
         <mxCell id="1" style=";html=1;" parent="0"/>
-        <mxCell id="rXu6xFuccpKYWGQX2Kob-6" value="LelMedia" style="html=1;" vertex="1" parent="1">
+        <mxCell id="rXu6xFuccpKYWGQX2Kob-6" value="BtkLetterMedia" style="html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="270" width="110" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="rXu6xFuccpKYWGQX2Kob-7" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.457;entryY=0.962;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rXu6xFuccpKYWGQX2Kob-6" target="rXu6xFuccpKYWGQX2Kob-39">
+        <mxCell id="rXu6xFuccpKYWGQX2Kob-7" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="rXu6xFuccpKYWGQX2Kob-6">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="280" y="340" as="sourcePoint"/>
-            <mxPoint x="335" y="210" as="targetPoint"/>
+            <mxPoint x="325" y="200" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="rXu6xFuccpKYWGQX2Kob-11" value="Customer" style="html=1;" vertex="1" parent="1">
@@ -26,14 +26,19 @@
         <mxCell id="rXu6xFuccpKYWGQX2Kob-23" value="1" style="resizable=0;html=1;align=left;verticalAlign=bottom;labelBackgroundColor=#ffffff;fontSize=10;" connectable="0" vertex="1" parent="rXu6xFuccpKYWGQX2Kob-22">
           <mxGeometry x="-1" relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="rXu6xFuccpKYWGQX2Kob-31" value="LelDraftLettrerMedia" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="rXu6xFuccpKYWGQX2Kob-31" value="BtkDraftLettrerMedia" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="195" y="400" width="140" height="52" as="geometry"/>
         </mxCell>
         <mxCell id="rXu6xFuccpKYWGQX2Kob-32" value="+ html: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="rXu6xFuccpKYWGQX2Kob-31">
           <mxGeometry y="26" width="140" height="26" as="geometry"/>
         </mxCell>
+        <mxCell id="rXu6xFuccpKYWGQX2Kob-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="rXu6xFuccpKYWGQX2Kob-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="110" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="rXu6xFuccpKYWGQX2Kob-36" value="Media" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="270" y="126" width="140" height="78" as="geometry"/>
+          <mxGeometry x="255" y="90" width="140" height="104" as="geometry"/>
         </mxCell>
         <mxCell id="rXu6xFuccpKYWGQX2Kob-37" value="+ code: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="rXu6xFuccpKYWGQX2Kob-36">
           <mxGeometry y="26" width="140" height="26" as="geometry"/>
@@ -41,11 +46,14 @@
         <mxCell id="rXu6xFuccpKYWGQX2Kob-39" value="+ MediaType:String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="rXu6xFuccpKYWGQX2Kob-36">
           <mxGeometry y="52" width="140" height="26" as="geometry"/>
         </mxCell>
-        <mxCell id="rXu6xFuccpKYWGQX2Kob-42" value="LelArchiveLettrerMedia" style="html=1;" vertex="1" parent="1">
+        <mxCell id="rXu6xFuccpKYWGQX2Kob-96" value="+ permitedPrincipals:String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="rXu6xFuccpKYWGQX2Kob-36">
+          <mxGeometry y="78" width="140" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="rXu6xFuccpKYWGQX2Kob-42" value="BtkArchiveLettrerMedia" style="html=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="400" width="130" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="rXu6xFuccpKYWGQX2Kob-46" value="1 -&amp;nbsp; 1j Création du DataModel : LelMedia , LelDraftLetterMedia, relation customer&lt;br&gt;&lt;br&gt;2 -&amp;nbsp; 3J Creation de LelMediaService extends MediaService pour gestion des medias LEL&amp;nbsp; (nombre maximale de drafts par customer) ,&amp;nbsp;&lt;br&gt;&lt;br&gt;synchroniser avec le Online&lt;br&gt;&lt;br&gt;3 -&amp;nbsp; 3j Mise à jour des controller Editor et creation de Controller pour la gestion du Draft.&lt;br&gt;&lt;br&gt;&lt;br&gt;6- 2j Ajout des jobs pour le clean des media : job , trigger ..." style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="1">
-          <mxGeometry x="680" y="100" width="420" height="160" as="geometry"/>
+          <mxGeometry x="680" y="100" width="420" height="210" as="geometry"/>
         </mxCell>
         <mxCell id="rXu6xFuccpKYWGQX2Kob-51" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="rXu6xFuccpKYWGQX2Kob-42" target="rXu6xFuccpKYWGQX2Kob-6">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -68,7 +76,7 @@
             <mxPoint x="360" y="660" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rXu6xFuccpKYWGQX2Kob-61" value="LelMediaService" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="rXu6xFuccpKYWGQX2Kob-61" value="BtkLetterMediaService" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="190" y="660" width="320" height="112" as="geometry"/>
         </mxCell>
         <mxCell id="rXu6xFuccpKYWGQX2Kob-63" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="rXu6xFuccpKYWGQX2Kob-61">
@@ -137,14 +145,20 @@
         <mxCell id="rXu6xFuccpKYWGQX2Kob-92" value="Order" style="html=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="390" width="110" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="rXu6xFuccpKYWGQX2Kob-93" value="order" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;entryX=-0.055;entryY=0.58;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.64;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="rXu6xFuccpKYWGQX2Kob-42" target="rXu6xFuccpKYWGQX2Kob-92">
-          <mxGeometry x="-1" relative="1" as="geometry">
-            <mxPoint x="520" y="490" as="sourcePoint"/>
-            <mxPoint x="680" y="490" as="targetPoint"/>
+        <mxCell id="rXu6xFuccpKYWGQX2Kob-98" value="&lt;a href=&quot;https://help.sap.com/viewer/d0224eca81e249cb821f2cdf45a82ace/6.4.0.0/en-US/8c0ae05c8669101481d3cb6fb6bdec16.html&quot;&gt;https://help.sap.com/viewer/d0224eca81e249cb821f2cdf45a82ace/6.4.0.0/en-US/8c0ae05c8669101481d3cb6fb6bdec16.html&lt;/a&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="1">
+          <mxGeometry x="440" y="20" width="440" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="rXu6xFuccpKYWGQX2Kob-100" value="Relation" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="424.5" as="sourcePoint"/>
+            <mxPoint x="660" y="424.5" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rXu6xFuccpKYWGQX2Kob-94" value="1" style="resizable=0;html=1;align=left;verticalAlign=bottom;labelBackgroundColor=#ffffff;fontSize=10;" connectable="0" vertex="1" parent="rXu6xFuccpKYWGQX2Kob-93">
+        <mxCell id="rXu6xFuccpKYWGQX2Kob-101" value="0..n" style="resizable=0;html=1;align=left;verticalAlign=top;labelBackgroundColor=#ffffff;fontSize=10;" connectable="0" vertex="1" parent="rXu6xFuccpKYWGQX2Kob-100">
           <mxGeometry x="-1" relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="rXu6xFuccpKYWGQX2Kob-102" value="1" style="resizable=0;html=1;align=right;verticalAlign=top;labelBackgroundColor=#ffffff;fontSize=10;" connectable="0" vertex="1" parent="rXu6xFuccpKYWGQX2Kob-100">
+          <mxGeometry x="1" relative="1" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
