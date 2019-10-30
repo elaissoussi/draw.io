@@ -1,1 +1,80 @@
-<mxfile host="www.draw.io" modified="2019-10-30T14:25:14.075Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" version="12.1.8" etag="Yrsq8bY0SosP59W2kIIB" type="github" pages="1"><diagram id="HOtI-sz_BUimLlqROvsf">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-10-30T14:26:38.428Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="Pz5B5YW1aIPZn3IdZMgK" version="12.1.8" type="github" pages="1">
+  <diagram id="HOtI-sz_BUimLlqROvsf" name="Page-1">
+    <mxGraphModel dx="1172" dy="505" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="NGBu0VjliSn-42wE4-gR-1" value="&lt;b&gt;BtkLetterMedia&lt;/b&gt;" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="270" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="NGBu0VjliSn-42wE4-gR-2" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.421;entryY=1.115;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NGBu0VjliSn-42wE4-gR-1" target="NGBu0VjliSn-42wE4-gR-11">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="280" y="340" as="sourcePoint"/>
+            <mxPoint x="325" y="200" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NGBu0VjliSn-42wE4-gR-3" value="&lt;b&gt;Customer&lt;/b&gt;" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="260" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="NGBu0VjliSn-42wE4-gR-4" value="&lt;span style=&quot;font-size: 12px&quot;&gt;letterMedias&lt;/span&gt;" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="NGBu0VjliSn-42wE4-gR-3" target="NGBu0VjliSn-42wE4-gR-1">
+          <mxGeometry x="-0.0909" y="81" relative="1" as="geometry">
+            <mxPoint x="470" y="300" as="sourcePoint"/>
+            <mxPoint x="630" y="300" as="targetPoint"/>
+            <mxPoint x="-21" y="-55" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NGBu0VjliSn-42wE4-gR-5" value="1" style="resizable=0;html=1;align=left;verticalAlign=bottom;labelBackgroundColor=#ffffff;fontSize=10;" connectable="0" vertex="1" parent="NGBu0VjliSn-42wE4-gR-4">
+          <mxGeometry x="-1" relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="NGBu0VjliSn-42wE4-gR-6" value="BtkDraftLettrerMedia" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="195" y="400" width="140" height="52" as="geometry"/>
+        </mxCell>
+        <mxCell id="NGBu0VjliSn-42wE4-gR-7" value="+ html: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="NGBu0VjliSn-42wE4-gR-6">
+          <mxGeometry y="26" width="140" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="NGBu0VjliSn-42wE4-gR-8" value="Media" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="81" width="250" height="104" as="geometry"/>
+        </mxCell>
+        <mxCell id="NGBu0VjliSn-42wE4-gR-9" value="+ code: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="NGBu0VjliSn-42wE4-gR-8">
+          <mxGeometry y="26" width="250" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="NGBu0VjliSn-42wE4-gR-10" value="+ MediaType:String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="NGBu0VjliSn-42wE4-gR-8">
+          <mxGeometry y="52" width="250" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="NGBu0VjliSn-42wE4-gR-11" value="+ permittedPrincipals:List&lt;PrincipalModel&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="NGBu0VjliSn-42wE4-gR-8">
+          <mxGeometry y="78" width="250" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="NGBu0VjliSn-42wE4-gR-12" value="&lt;b&gt;BtkArchiveLettrerMedia&lt;/b&gt;" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="400" width="130" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="NGBu0VjliSn-42wE4-gR-13" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="NGBu0VjliSn-42wE4-gR-12" target="NGBu0VjliSn-42wE4-gR-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="360" y="370" as="sourcePoint"/>
+            <mxPoint x="380" y="340" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NGBu0VjliSn-42wE4-gR-14" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="NGBu0VjliSn-42wE4-gR-6" target="NGBu0VjliSn-42wE4-gR-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="270" y="390" as="sourcePoint"/>
+            <mxPoint x="360" y="480" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NGBu0VjliSn-42wE4-gR-15" value="&lt;b&gt;Order&lt;/b&gt;" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="400" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="NGBu0VjliSn-42wE4-gR-16" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="510" y="410" as="sourcePoint"/>
+            <mxPoint x="600" y="410" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NGBu0VjliSn-42wE4-gR-17" value="* orders" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="490" y="370" width="60" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="NGBu0VjliSn-42wE4-gR-18" value="* archiveLetterMedias" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="535" y="460" width="130" height="20" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
