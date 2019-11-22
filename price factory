@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-22T16:29:26.755Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="mYy_7-VfhTAL8YVCMvh6" version="12.2.9" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-22T16:46:51.191Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="l689gUylfQjSdh0eEYNh" version="12.2.9" type="github" pages="1">
   <diagram id="i0WApCVXlYRcxcBg4owX" name="Page-1">
     <mxGraphModel dx="1172" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -160,7 +160,7 @@
         <mxCell id="_JM06Jnb6FdcDtM_QcIy-14" value="+ addToCart(CartParam): List&lt;CartModif&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_JM06Jnb6FdcDtM_QcIy-12">
           <mxGeometry y="34" width="230" height="36" as="geometry"/>
         </mxCell>
-        <mxCell id="_JM06Jnb6FdcDtM_QcIy-23" value="cartFactory.createStandaloneCart();&lt;br&gt;&lt;br&gt;productService.getProduct(...)&amp;nbsp;&lt;br&gt;&lt;br&gt;commerceCartService.addTocart( prod, quantity)&lt;br&gt;&lt;br&gt;cart.getTotalPrice()&lt;br&gt;&lt;br&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="1">
+        <mxCell id="_JM06Jnb6FdcDtM_QcIy-23" value="cartModel = InMemoryCartFactory.createCart();&lt;br&gt;&lt;br&gt;product = productService.getProduct(...)&amp;nbsp;&lt;br&gt;&lt;br&gt;commerceCartService.addTocart( prod, quantity)&lt;br&gt;&lt;br&gt;cart.getTotalPrice()" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="1">
           <mxGeometry y="227" width="290" height="113" as="geometry"/>
         </mxCell>
       </root>
