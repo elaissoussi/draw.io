@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2020-03-11T10:43:19.436Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="pfQS7W0w_y-YxW3VgILb" version="12.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-03-15T21:18:50.883Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="VWYPJwNSn3T_976TlTye" version="12.8.5" type="github">
   <diagram id="CNU7w9sgYSYAunCOMGmn" name="Page-1">
-    <mxGraphModel dx="1386" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -21,7 +21,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LnWXDcP7S4IgxRe3qEan-36" value="              BtkLetterEntry" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=left;" parent="1" vertex="1">
-          <mxGeometry x="290" y="190" width="230" height="174" as="geometry" />
+          <mxGeometry x="290" y="190" width="230" height="206" as="geometry" />
         </mxCell>
         <mxCell id="LnWXDcP7S4IgxRe3qEan-37" value="- products: List&lt;BtkLetterEntryProduct&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="LnWXDcP7S4IgxRe3qEan-36" vertex="1">
           <mxGeometry y="26" width="230" height="26" as="geometry" />
@@ -35,8 +35,11 @@
         <mxCell id="dqXY3KG5e0j9-ZAYdP-f-34" value="- statusApiCt: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="LnWXDcP7S4IgxRe3qEan-36" vertex="1">
           <mxGeometry y="110" width="230" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="dqXY3KG5e0j9-ZAYdP-f-35" value="- trackingId: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="LnWXDcP7S4IgxRe3qEan-36" vertex="1">
+        <mxCell id="CpVTMXKiFlSHCYYFx09B-1" value="- StatusApiCtDate: Date" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LnWXDcP7S4IgxRe3qEan-36">
           <mxGeometry y="142" width="230" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="dqXY3KG5e0j9-ZAYdP-f-35" value="- trackingId: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="LnWXDcP7S4IgxRe3qEan-36" vertex="1">
+          <mxGeometry y="174" width="230" height="32" as="geometry" />
         </mxCell>
         <mxCell id="dqXY3KG5e0j9-ZAYdP-f-9" value="AbstractOrderEntry" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="20" y="68" width="220" height="60" as="geometry" />
